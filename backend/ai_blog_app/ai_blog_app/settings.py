@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'ai_blog_app.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydatabase',
-        'USER': 'myuser',
-        'PASSWORD': 'mypassword',
-        'HOST': 'db',
+        'ENGINE': 'django_postgres_extensions.backends.postgresql',
+        'NAME': 'demo',
+        'USER': 'demo',
+        'PASSWORD': 'demo',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
